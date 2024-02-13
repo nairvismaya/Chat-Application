@@ -1,0 +1,26 @@
+{
+  "name": "chat-application",
+  "version": "1.0.0",
+  "description": "Chat Application using react, node,express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nairvismaya/Chat-Application-using-React-Node-Express.git"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "chat",
+    "application"
+  ],
+  "author": "Vismaya Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nairvismaya/Chat-Application-using-React-Node-Express/issues"
+  },
+  "homepage": "https://github.com/nairvismaya/Chat-Application-using-React-Node-Express#readme"
+}
