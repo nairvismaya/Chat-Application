@@ -22,7 +22,7 @@ function App() {
       <h3>Join Chat Room</h3>
       <input
         type="text"
-        placeholder="Name..."
+        placeholder="Name"
         onChange={(event) => {
           setUsername(event.target.value);
         }}

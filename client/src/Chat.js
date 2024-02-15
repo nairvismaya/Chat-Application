@@ -38,10 +38,9 @@ function Chat({ socket, username, room }) {
       </div>
       <div className="chat-body">
         <ScrollToBottom className="message-container">
-          {messageList.map((messageContent, index) => {
+          {messageList.map((messageContent) => {
             return (
               <div
-                key={index}
                 className="message"
                 id={username === messageContent.author ? "you" : "other"}
               >
@@ -63,13 +62,10 @@ function Chat({ socket, username, room }) {
         <input
           type="text"
           value={currentMessage}
-          placeholder="Hey..."
+          placeholder="Type a message"
           onChange={(event) => {
             setCurrentMessage(event.target.value);
           }}
-          //   onKeyPress={(event) => {
-          //     event.key === "Enter" && sendMessage();
-          //   }}
         />
         <button onClick={sendMessage}>&#9658;</button>
       </div>
