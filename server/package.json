@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/nairvismaya/Chat-Application-using-React-Node-Express/issues"
   },
-  "homepage": "https://github.com/nairvismaya/Chat-Application-using-React-Node-Express#readme",
+  "homepage": "https://nairvismaya.github.io/Chat-Application/",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
